@@ -1,0 +1,27 @@
+{
+  "name": "game-application-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "set NODE_ENV=local&&node app.js",
+    "development": "set NODE_ENV=development&&node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "console-stamp": "^0.2.5",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "lodash": "^4.17.4",
+    "memori": "^1.1.0",
+    "request": "^2.88.0",
+    "sails-mysql": "^0.11.5",
+    "sails-postgresql": "^0.11.4",
+    "waterline": "^0.11.11",
+    "ws": "^3.0.0",
+    "ws-heartbeat": "^1.0.4"
+  }
+}
